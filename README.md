@@ -16,8 +16,7 @@ Key Features
 5. Live Python Dashboard: The STM32 streams structured ASCII telemetry frames over a high-speed UART connection (115200 bps) at 10 Hz. A host PC runs a Python Matplotlib GUI that parses these strings to dynamically animate a speedometer, SOC bar, speed history trace, and an ADAS bird-eye view at 10 fps.
 6.   UART Diagnostic Shell: Mimicking an OBD-II diagnostic port, the bidirectional shell allows for live parameter injection, manual fault triggering, and deterministic testing of alarm boundaries without moving physical hardware.
 
-7.   
-System ArchitectureHardware / Simulation: STM32F103C8T6 (Blue Pill) microcontroller simulated in PICSimLab.
+7. System ArchitectureHardware / Simulation: STM32F103C8T6 (Blue Pill) microcontroller simulated in PICSimLab.
 Sensor Inputs: 12-bit ADC analog potentiometers acting as variable pedals/temperature inputs, and HC-SR04 ultrasonic panels.
- Firmware Environment: Developed in C using STM32 HAL in CubeIDE.
- Frontend Visualization: Python 3 utilizing the matplotlib and pyserial libraries
+Firmware Environment: Developed in C using STM32 HAL in CubeIDE.
+Frontend Visualization: Python 3 utilizing the matplotlib and pyserial libraries

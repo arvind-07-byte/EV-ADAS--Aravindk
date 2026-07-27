@@ -1,6 +1,10 @@
 Real-Time Electric Vehicle ADAS & Dashboard System
 
 Developer: Aravind K
+
+
+[🎥 Click Here to Watch the EV ADAS Video Demo](https://drive.google.com/file/d/11PGekTZaZrhi9Ks6Yccx4JKAVe4xqt6A/view?usp=drive_link)
+
 Modern electric vehicles generate enormous volumes of real-time sensor data, and without a centralized dashboard, critical safety faults can go undetected. This project is a hardware-in-the-loop simulation of an EV Advanced Driver Assistance System (ADAS) designed to aggregate multi-dimensional sensor metrics into a centralized, priority-tiered engine
 
 Key Features
